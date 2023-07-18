@@ -1,0 +1,908 @@
+htlm,
+body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 1 auto;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.nav {
+    background-color: black;
+}
+
+.nav>ul {
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: end;
+    padding: 10px;
+}
+
+.nav ul,
+.menu {
+    margin-right: 100px;
+}
+
+a,
+li {
+    color: #ffffff;
+    text-decoration: none;
+    list-style: none;
+    margin-left: 25px;
+}
+
+.logo {
+    margin-left: 120px;
+    margin-top: 20px;
+}
+
+.logo2 {
+    display: none;
+}
+
+.logoL {
+    display: none;
+}
+
+.bann {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu {
+    display: flex;
+    justify-content: end;
+}
+
+.menu>li {
+    color: aliceblue;
+}
+
+/* .may{
+    height: 100vh 100vw;
+    background: url(..//img/bann.png);
+    background-repeat: no-repeat;
+    background-color:rgb (146, 168, 168);
+    background-position: center ;
+  
+} */
+
+
+.btn-up {
+    position: fixed;
+    background-color: #000000;
+    right: 20px;
+    bottom: 0;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 50px;
+  }
+  .btn-up::before {
+    content: "";
+    width: 40px;
+    height: 40px;
+    background: transparent no-repeat center center;
+    background-size: 100% 100%;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='%23fff' viewBox='0 0 16 16'%3E%3Cpath fill-rule='evenodd' d='M7.646 4.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 5.707l-5.646 5.647a.5.5 0 0 1-.708-.708l6-6z'/%3E%3C/svg%3E");
+  }
+  .btn-up_hide {
+    display: none;
+  }
+  @media (hover: hover) and (pointer: fine) {
+    .btn-up:hover {
+      background-color: #141414; /* цвет заднего фона при наведении */
+    }
+  }
+
+.may {
+    height: 100vh;
+    background: url(..//img/bann.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+}
+
+.bann {
+    display: flex;
+}
+
+.menu {
+    align-items: center;
+}
+
+.menu nav {
+    display: flex;
+    align-items: center;
+}
+
+.burger-menu {
+    display: none;
+}
+.burger-menu__button{
+    display: none;
+}
+.socM>img {
+    margin: 5px;
+}
+
+.socM2 {
+    display: none;
+}
+
+.lineH {
+    float: left;
+    display: flex;
+}
+
+.info {
+    margin-top: 89px;
+    margin-left: 120px;
+}
+
+.qqq {
+    color: #ffffff;
+    font-size: 45px;
+    max-width: 590px;
+    display: flex;
+    align-items: center;
+}
+
+.info img {
+    margin-right: 5px;
+}
+
+.top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.top>p {
+    margin-top: 63px;
+    margin-bottom: 10px;
+    font-size: 36px;
+}
+
+.polosa11 {
+    left: 0px;
+}
+
+.marks {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    align-items: center;
+}
+
+.marks2 {
+    display: none;
+}
+
+.marksL {
+    display: none;
+}
+
+.mrk {
+    margin: 30px;
+}
+
+.cardContainer {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: #ffffff;
+    font-size: 36px;
+}
+
+.cardContainer2 {
+    display: none;
+}
+
+.cardContainer3 {
+    display: none;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 20px;
+}
+
+.cardText>p {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    font-size: 20px;
+}
+
+
+.slide {
+    width: 100%;
+}
+
+.mapT {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.mapT2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-right: 27px;
+}
+
+.mapT2 p {
+    font-size: 24px;
+}
+
+.mapT2 img {
+    padding-top: 6px;
+    padding-bottom: 28px;
+}
+
+button {
+    margin-top: 34px;
+    font-size: 24px;
+    background-color: black;
+    color: rgb(255, 255, 255);
+    padding: 10px 20px 10px 20px;
+    width: fit-content;
+}
+
+.title {
+    /* display: flex; 
+    flex-direction: column; */
+    margin-top: 41px;
+    margin-left: 65px;
+    margin-bottom: 32px;
+}
+
+.title p {
+    font-size: 40px;
+    margin-bottom: 24px;
+}
+
+.search {
+    font-size: 32px;
+    margin-left: 65px;
+    display: flex;
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+}
+
+.search a {
+    color: black;
+   padding: 5px;
+}
+.search a:hover{
+     background-color: #d3d3d3;
+}
+
+.search img {
+    margin-left: 10px;
+}
+
+.slide {
+    width: 100%;
+}
+
+.container {
+    /* width: 1249px; */
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.carrrd {
+    margin: 15px;
+    /* Это свойство задает отступы 
+    со всех сторон у обертки "carrrd" в 15 пикселей. */
+    padding: 10px;
+    /* Это свойство задает внутренний 
+    отступ у обертки "carrrd" в 10 пикселей. */
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.432);
+    /* Это свойство создает тень вокруг обертки "carrrd". */
+}
+
+.ca {
+    display: flex;
+    flex-direction: column;
+    /* задает направление выравнивания элементов 
+    внутри контейнера "ca" в колонку */
+    font-size: 24px;
+    /* задает размер шрифта */
+    align-items: center;
+    /* задает выравнивание элементов
+     внутри контейнера "ca" по центру */
+}
+
+.cardText a {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* задает расстояние между 
+    элементами внутри ссылки по краям */
+    margin: 5px;
+    font-size: 24px;
+    color: black;
+    /* задает цвет текста ссылки в черный */
+}
+
+.cardText>img {
+    float: left;
+    /* задает выравнивание изображения по левому краю */
+}
+
+.www {
+    display: flex;
+    align-items: center;
+}
+
+.www img {
+    float: left;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+footer {
+    height: 40vh;
+    background: url(..//img/footimg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    position: relative;
+}
+
+.foot>ul {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 25px;
+}
+
+.foot>ul>li>p {
+    color: #ffffff;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+.foot1>ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-basis: content;
+    text-align: center;
+}
+
+.foot1>ul>li>p {
+    color: #ffffff;
+    font-size: 14px;
+}
+
+.foot1>ul>li {
+    margin-bottom: 20px;
+}
+
+.logoF {
+    display: flex;
+    align-items: center;
+}
+
+.logoF2 {
+    display: none;
+}
+
+.logoF3 {
+    display: none;
+}
+
+@media (max-width: 1420px) {
+    .imgIHY {
+        max-width: 240px;
+        /* min-height: 194px; */
+    }
+
+    .card p {
+        font-size: 26px;
+    }
+
+    .cardText {
+        font-size: 16px;
+    }
+
+    .logo {
+        max-width: 336px;
+    }
+
+    .menu li {
+        margin-left: 5px;
+    }
+
+    .mapT img {
+        max-width: 501px;
+        max-height: 398px;
+    }
+    footer{
+        height: 33vh;
+    }
+    .searchBar{
+        width: 350px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .may {
+        height: 70vh;
+    }
+
+    .nav li {
+        font-size: 12px;
+    }
+
+    .qqq {
+        font-size: 36px;
+    }
+
+    .cardContainer {
+        display: none;
+    }
+
+    .cardContainer2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        background-color: black;
+        color: #ffffff;
+        font-size: 36px;
+        width: 100%;
+    }
+
+    .card p {
+        margin-right: 60px;
+    }
+
+    .mapp {
+        max-width: 12px;
+        max-height: 16px;
+    }
+
+    .calll {
+        max-width: 18px;
+        max-height: 16px;
+    }
+
+    .mapT img {
+        max-width: 352px;
+        max-height: 298px;
+    }
+
+    .mapT2 p {
+        font-size: 19px;
+    }
+
+    .searchBar {
+        width: 250px;
+        height: 26px;
+    }
+
+    .image-wrapper {
+        /* width: 839px; */
+        width: 100%;
+        height: 240px;
+        overflow: hidden;
+        margin: 0 auto;
+    }
+
+    .slide2 {
+        animation: Sanimate 20s infinite ease;
+        width: 1700px;
+        height: 240px;
+        clear: both;
+        position: relative; 
+    }
+    @keyframes Sanimate {
+        10% {
+            left: 0;}
+        20% {
+            left: -100px; }
+        30% {
+            left: -200px;}
+        40% {
+            left: -400px;}
+        50% {
+            left: -800px;}
+        60% {
+            left: -800px;}
+        70% {
+            left: -400px;}
+        80% {
+            left: -200px;}
+        90% {
+            left: -100;}
+        100% {
+            left: 0;}
+    }
+}
+@media (min-width: 768px) and (max-width: 1022px) {
+    .nav,
+    .menu a {
+        font-size: 13px;
+    }
+    .socM {
+        display: none;
+    }
+    .socM2 {
+        display: flex;
+    }
+    .logo {
+        display: none;
+    }
+    .logo2 {
+        margin-left: 60px;
+        display: flex;
+    }
+    .nav ul,.menu {
+        margin-right: 60px;
+    }
+    .title img {
+        width: 609px;
+    }
+    .marks {
+        display: none;
+    }
+    .marks2 {
+        display: flex;
+    }
+    /* .image-wrapper{
+        width: 764px;
+    } */
+    .mapT2 {
+        padding: 0px;
+    }
+    .title p {
+        font-size: 28px;
+        margin: 0px;
+    }
+    .polosa11 {
+        width: 539px;
+    }
+    .search {
+        margin-left: 45px;
+    }
+    .search a {
+        font-size: 24px;
+        margin-left: 45px;
+    }
+    .search2 {
+        font-size: 24px;
+    }
+    .searchBar {
+        width: 250px;
+    }
+    .mashina {
+        width: 168px;
+        height: 106px;
+    }
+    .mashLine {
+        width: 203px;
+    }
+    .foot1>ul>li>p {
+        font-size: 10px;
+    }
+    .logoF {
+        display: none;
+    }
+    .logoF2 {
+        display: flex;
+    }
+    .foot>ul {
+        align-items: flex-start;
+    }
+    .foot>ul>li>p {
+        font-size: 12px;
+    }
+    footer{
+        height: 30vh;
+    }
+}
+@media (max-width: 767px) {
+    .calll{
+        width: 12px;
+        height: 10px;
+    }
+    .mapp{
+        width: 9px;
+        height: 10px;
+    }
+    .burger-menu__button{
+        display: flex;
+        margin-top: 27px;
+            padding: 10px 12px 10px 10px;
+    }
+    .burger-menu{
+        display: flex;
+    }
+    .burger-menu {
+        position: absolute;
+        top: 90px;
+        right:20px;
+        height: fit-content;
+        width: 0;
+        overflow-x: hidden;
+        z-index:    9;
+        background-color: #fff;
+        transition: 0.5s;
+      }
+      
+      .burger-menu ul {
+        display: flex;
+        flex-direction: column;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+      }
+      
+      .burger-menu li {
+        padding: 7px 4px;
+        border-bottom: 1px solid #eee;
+        margin-left: 0px;
+      }
+      
+      .burger-menu li:last-child {
+        border-bottom: none;
+      }
+      .socBlack img{
+        margin-left: 20px
+      }
+      .burger-menu a {
+        color: #000;
+        text-decoration: none;
+        font-size: 16px;
+        margin-left: 0 px;
+      }
+      .burger-menu__button {
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        z-index: 10000;
+      }
+      .search{
+        margin-left: 20px;
+      }
+      .burger-menu--open {
+        width: 35%;
+      }
+      
+    .container {
+        display: flex;
+        align-items: center;
+    }
+    .menu {
+        display: none;
+    }
+    .may {
+        height: 32vh;
+    }
+    .nav ul {
+        margin-right: 10px;
+    }
+    .nav li {
+        font-size: 8px;
+        margin-left: 5px;
+    }
+    .logo {
+        display: none;
+    }
+    .logoL {
+        display: flex;
+        margin-left: 0px;
+    }
+    .info {
+        margin-top: 0px;
+        margin-left: 25px;
+    }
+    .qqq {
+        font-size: 20px
+    }
+    .lineH {
+        width: 66px;
+    }
+    .top>p {
+        margin-top: 20px;
+    }
+    .mrk {
+        margin: 6px;
+    }
+    .mapT img {
+        display: none;
+    }
+    .title img {
+        width: 300px;
+    }
+    .top>p {
+        font-size: 20px;
+        margin-top: 10px;
+        margin-bottom: 6px;
+    }
+    .top img {
+        width: 230px;
+    }
+    .marks {
+        display: none;
+        margin-top: 0px;
+    }
+    .marksL {
+        display: flex;
+    }
+    .cardContainer {
+        display: none;
+    }
+    .cardContainer3 {
+        display: flex;
+    }
+    .image-wrapper {
+        /* width: 839px; */
+        width: 100%;
+        height: 169px;
+        overflow: hidden;
+        margin: 0 auto;
+    }
+    .slide2 {
+        animation: Sanimate2 20s infinite ease;
+        width: 1700px;
+        height: 169px;
+        clear: both;
+        position: relative;
+    }
+    @keyframes Sanimate2 {
+        10% {
+            left: 0;}
+        20% {
+            left: -50px; }
+        30% {
+            left: -100px;}
+        40% {
+            left: -200px;}
+        50% {
+            left: -400px;}
+        60% {
+            left: -400px;}
+        70% {
+            left: -200px;}
+        80% {
+            left: -100px;}
+        90% {
+            left: -50;}
+        100% {
+            left: 0;}
+    }
+    .mapT2{
+        padding: 0px;
+        margin-top: 10px;
+    }
+    .mapT2 button {
+        font-size: 17px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    .mapT2 p {
+        font-size: 15px;
+    }
+    .mapT2 b {
+        font-size-adjust: 16px;
+    }
+    .title {
+        margin-top: 7px;
+        margin-left: 13px;
+        margin-bottom: 8px;
+    }
+    .title img {
+        width: 280px;
+    }
+    .title p {
+        font-size: 13px;
+        margin-bottom: -8px;
+    }
+    .search {
+        font-size: 12px;
+    }
+    .searchBar {
+        width: 64px;
+        height: 10px;
+    }
+    .mashina {
+        width: 75px;
+        height: 47px;
+    }
+    .mashLine {
+        width: 90px;
+    }
+    .ca b {
+        font-size: 10px;
+    }
+    .cardText a img {
+        width: 14px;
+        height: 14px;
+    }
+    .cardText a {
+        font-size: 10px;
+    }
+    .carrrd{
+        margin: 7px;
+        padding: 0px;
+    }
+    .logoF {
+        display: none;
+    }
+    .logoF3 {
+        display: flex;
+    }
+    .foot>ul>li>p {
+        font-size: 8px;
+    }
+    .foot1>ul>li>p {
+        font-size: 7px;
+    }
+    .socM{
+        display: none;
+    }
+    .socM2{
+        display: flex;
+        margin-left: 0px;
+    }
+    .foot>ul>li>p{
+        margin-bottom: 10px;
+    }
+    .foot ul li{
+        margin-left: 0px;
+    }
+    footer{
+        height: 37vh;
+    }
+    .btn-up{
+        width: 50px;
+        height: 38px;
+    }
+    .btn-up::before{
+        width: 30px;
+        height: 30px;
+    }
+    .socM>img{
+        margin: 0px;
+        margin-bottom: 6px;
+    }
+    .socM{
+        flex-direction: column;
+    }
+    .foot>ul{
+        margin-top: 20px;
+        justify-content: space-evenly;
+    }
+    .foot1>ul>li{
+        margin-bottom: 10px;
+    }
+}
+@media (max-width: 547px){
+    .burger-menu--open{
+        width: 60%;
+    }
+}

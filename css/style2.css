@@ -1,0 +1,532 @@
+.may2{   
+    background: url(..//img/bannS.png);
+    height: 20vh;
+    background-repeat: no-repeat;
+    background-position: center ;
+    background-size: cover;
+    width: 100%;
+}
+.nav2{
+    background-color: black;
+    padding: 10px 16px 0px 0px;
+    padding-bottom: 10px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+.menu{
+    margin-top: -40px;
+}
+/* .nav2 li{
+    display: inline;
+} */
+.bann{
+    width: 100%;
+    display: flex;
+}
+.nav2 ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.nav2 ul .iimg img{
+    padding-top: 4px;
+   
+}
+.Zag{
+    margin-left: 40px;
+    margin-top: 14px;
+    width: 70%;
+}
+.Zag b{
+    font-size: 32px;
+    margin-top: 50px;
+    margin-right: 400px;
+}
+.Zag>p{
+    font-size: 24px;
+    margin-bottom: 50px;
+}
+.a1{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.aaaa{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    /* align-items: center; */
+    /* width: 1400px; */
+    /* margin: 0 auto; */
+    margin-top: 41px;
+}
+.aaaa p{
+    color: black;
+    font-size: 20px; 
+    margin-bottom: 20px;
+    /* margin-left: 17vmin; */
+    display: flex;
+}
+.aaaa img{
+    vertical-align: middle;
+}
+.ikonk{
+    display: flex;
+    margin-right: 24px;
+}
+.ikonk2{
+    display: none;
+}
+.punkt{
+    display: flex;
+  
+}
+.popunkt{
+    display: flex;
+    align-items: center; 
+    margin-bottom: 45px;
+    font-size: 20px;
+}
+.popunkt1{
+    display: flex;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+.popunkt img{
+    float: left;
+    margin-right: 25px;
+
+}
+.Numm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Numm b{
+    font-size: 20px;
+}
+.Numm b{
+    margin-top: 15px;
+}
+.Numm2{
+    display: flex;
+    align-items: center;
+}
+.punkt button{
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+.mapC{
+    margin-left: 38px;
+}
+.polosa{
+    background-color: black;
+    color: rgb(255, 255, 255);
+    padding: 20px 0px 20px 0px;
+    padding-left: 40px;
+    font-size: 24px;
+}
+.skid{
+    display: flex;
+    margin-top: 10px;
+    font-size: 24px;
+}
+.skid p{
+    margin-right: 10px;
+}
+.skidText{
+    font-size: 36px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 30px;
+}
+.skiCard{
+
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.skiCard1{
+    display: flex;
+    justify-content: center;
+}
+.scroller {
+    width: 608px;
+    height: 500px;
+    overflow-y: scroll;
+    /* scrollbar-width: thin; */   
+  }
+section{
+    display: flex;
+    justify-content: center;
+}
+.scroller li{
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+}
+.content{
+	overflow: auto;
+	position: relative;
+	padding: 20px;
+	background: #c5c5c5;
+	margin: 10px;
+	width: 608px;
+	height: 500px;
+	-webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.contentZag{
+    display: flex;
+    height: fit-content;
+}
+.content ul{
+    margin: 0px;
+}
+.content li{
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+    margin-right: 124px;
+}
+.content p{
+    font-size: 16px;
+    display: flex;
+    justify-content: space-between;
+}
+.auto li{
+display: flex;
+margin-top: 41px;
+}
+.auto b{
+    color: black;
+    font-size: 24px;
+}
+.auto li{
+    display: flex;
+    justify-content: space-between;
+}
+select{
+    width: 172px;
+    margin-left: 41px;
+}
+.auto button{
+    display: flex;
+    margin-top: 0px;
+}
+.tabs-inner{
+    display: none;
+}
+.active{
+    display: block;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+form b{
+    font-size: 32px;
+}
+form p{
+    font-size: 24px;
+}
+   .skiCard1img2{
+    display: none;
+   }
+input{
+    height: 52px;
+    width: 747px;
+    margin-top: 20px;
+    background-color: #E8E8E8;
+}
+.tab-header{
+    display: flex;
+}
+@media (min-width: 768px) and (max-width: 1420px){
+    /* скидки */
+    .Zag b{
+        font-size: 28px;
+    }
+    .Zag p{
+        font-size: 20px;
+    }
+    .Zag img{
+        width: 630px;
+        height: 3px;
+    }
+    .skiCard1img{
+        display: none;
+    }
+    .skiCard1img2{
+        display: flex;
+    }
+    .skidText{
+        font-size: 24px;
+    }
+    .skiCard2img{
+        width: 498px;
+    }
+    .mapC{
+        width: 479px;
+        height: 379px;
+    }
+    .skiCard2img{
+        width: 359px;
+    }
+    /* запись четатам */
+    input{
+        width: 477px;
+        margin-top: 10px;
+    }
+    form p{
+        font-size: 20px;
+    }
+    form button{
+        margin-top: 0px;
+        margin-bottom: 20px;
+    }
+}
+@media (min-width: 768px) and (max-width: 1170px){
+     /* калькулятор */
+      /* тут типа контакты */
+    .auto b{
+        font-size: 15px;
+    }
+    .content{
+        width: 370px;
+        height: 400px;
+        padding: 10px;
+        margin-left: 25px;
+    }
+    .content li{
+        margin-right: 45px;
+    }
+    select{
+        width: 110px;
+    }
+    h2{
+        font-size: 16px;
+    }
+    li{
+        margin-left: 2px;
+    }
+    .lineCkr{
+        width: 173px;
+        margin-right: 50px;
+    }
+    .lineCkr2{
+        width: 125px;
+    }
+    .auto button{
+        font-size: 20px;
+    }
+    .mapC{
+       width: 334px; 
+       height: 256px;
+    }
+    .popunkt{
+        font-size: 15px;
+        margin-bottom: 20px;
+    }
+    .popunkt1{
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+    .aaaa p{
+        font-size: 15px;
+    }
+    .mapC{
+        margin-left: 18px;
+    }
+    .popunkt img{
+    margin-right: 15px;
+    }
+    .ikonk2{
+        display: flex;
+        margin-right: 15px;
+        margin-left: 5px;
+    }
+    .ikonk{
+        display: none;
+    }
+    /* .logo2{
+        display: flex;
+    } */
+   /* зпись на сервис */
+}
+@media (min-width: 320px) and (max-width: 768px){
+    /* скидки */
+   .logoL{
+    display: flex;
+   } 
+   .Zag{
+    margin-left: 20px;
+   }
+   .Zag b{
+    font-size: 20px;
+   }
+   .Zag p{
+    font-size: 15px;
+    margin-bottom: 20px;
+   }
+   .Zag img{
+    width: 300px;
+   }
+   .polosa{
+    font-size: 15px;
+    padding-left: 20px;
+   }
+   .tab-header p{
+    font-size: 15px;
+   }
+   .skiCard1img{
+    width: 228px;
+    height: 132px;
+   }
+   .skidText{
+    font-size: 17px;
+    margin-left: 5px;
+   }
+   .skiCard{
+    margin-top: 50px;
+    margin-bottom: 50px;
+   }
+   .skiCard1{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items:center;
+   }
+   .skiCard1 img{
+    margin-bottom: 10px;
+   }
+   .skiCard2img{
+    width: 219px;
+   }
+   .logoF3{
+    display: flex;
+   }
+   .nav2 li{
+    margin-left: 4px;
+   }
+   /* контакты */
+   .mapC{
+    display: none;
+   }
+   .aaaa{
+    width: 320px;
+    margin-top: 23px;
+   }
+   .aaaa p{
+    font-size: 12px;
+    margin-bottom: 0px;
+   }
+   .ikonk{
+    margin-left: 10px;
+    margin-right: 7px;
+   }
+   .popunkt, .popunkt1, .Numm b{
+    font-size: 12px;
+    margin-bottom: 0px;
+    margin-top: 11px;
+   }
+   .ikonk{
+    width: 13px;
+    height: 19px;
+   }
+   .mClok{
+    width: 20px;
+    height: 20px;
+   }
+   .PMail{
+    width: 17px;
+    height: 17px;
+   }
+   .popunkt img{
+    margin-right: 12px;
+    margin-left: 12px;
+   }
+   .punkt a button{
+    font-size: 16px;
+    
+   }
+   .punkt a{
+    display: flex;
+    align-items: center;
+    }
+    .Numm b{
+        margin-top: 10px;
+    }
+    /* калькулятор */
+    .logoL{
+        margin-top: -60px;
+    }
+    section{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .auto{
+        width: 300px;
+    }
+    .auto b{
+        font-size: 15px;
+    }
+    select{
+        width: 98px;
+    }
+    .auto button{
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
+    }
+    .auto li{
+         margin-top: 24px;
+         margin-left: 5px;
+    }
+    .content{
+        width: 300px;
+        height: 279px;
+    }
+    .contentZag h2{
+        font-size: 12px;
+    }
+    .lineCkr{
+        width: 127px;
+    }
+    .lineCkr2{
+        width: 92px;
+    }
+    .content p{
+        font-size: 9px;
+    }
+    .content li{
+        margin-top: 15px;
+        margin-right: 25px;
+        margin-left: 0px;
+    }
+    /* запись */
+    input{
+        width: 294px;
+        height: 28px;
+        margin-top: 0px;
+    }
+    form b{
+        font-size: 16px;
+    }
+    form p{
+        font-size: 12px;
+        margin-bottom: 20px;
+    }
+    form button{
+        font-size: 16px;
+        margin-top: 0px;
+        margin-bottom: 20px;
+    }
+    .Zag b{
+        margin-right: 20px;
+    }
+}
